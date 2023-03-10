@@ -1,6 +1,6 @@
 {
     "name": "@burakbey/express-class-router",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/index.js",
     "license": "MIT",
     "typings": "dist/index.d.ts",
@@ -30,5 +30,19 @@
     },
     "files": [
         "dist"
-    ]
+    ],
+    "keywords": [
+        "express",
+        "router",
+        "class",
+        "class-syntax"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BUR4KBEY/express-class-router.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BUR4KBEY/express-class-router/issues"
+    },
+    "homepage": "https://github.com/BUR4KBEY/express-class-router#readme"
 }
