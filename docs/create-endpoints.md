@@ -96,7 +96,7 @@ const PORT = 3000;
 
 app.use('/users', UsersRoute);
 
-app.listen(PORT, () => console.log(`Application running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Application is running on port ${PORT}`));
 ```
 
 ```ts [src/routes/users.ts]
@@ -132,11 +132,13 @@ import express from 'express';
         folderPath: join(__dirname, './routes')
     });
 
-    app.listen(PORT, () => console.log(`Application running on port ${PORT}`));
+    app.listen(PORT, () =>
+        console.log(`Application is running on port ${PORT}`)
+    );
 })();
 ```
 
-```ts [routes/users.ts]
+```ts [src/routes/users.ts]
 import { Controller, Route } from '@burakbey/express-class-router';
 import { Request, Response } from 'express';
 

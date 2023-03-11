@@ -53,7 +53,9 @@ import express from 'express';
         folderPath: join(__dirname, './routes')
     });
 
-    app.listen(PORT, () => console.log(`Application running on port ${PORT}`));
+    app.listen(PORT, () =>
+        console.log(`Application is running on port ${PORT}`)
+    );
 })();
 ```
 

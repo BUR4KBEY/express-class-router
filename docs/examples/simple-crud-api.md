@@ -111,7 +111,7 @@ import express from 'express';
         folderPath: join(__dirname, './routes')
     });
 
-    app.listen(3000, () => console.log('Application running on port 3000'));
+    app.listen(3000, () => console.log('Application is running on port 3000'));
 })();
 ```
 
