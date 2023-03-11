@@ -60,6 +60,10 @@ export default defineConfig({
                     {
                         text: 'Simple CRUD API',
                         link: '/examples/simple-crud-api'
+                    },
+                    {
+                        text: 'Validating Requests',
+                        link: '/examples/validating-requests'
                     }
                 ]
             }
